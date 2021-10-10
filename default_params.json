@@ -1,0 +1,18 @@
+{
+    "batch_size" : 64,
+    "learning_rate" : 0.0007,
+    "hidden_size" : 64,
+    "nb_epoch" : 50,
+    "ddi" : true,
+    "TARGET_DDI" : 0.05,
+    "T" : 0.9,
+    "decay_weight": 0.85,
+    "glu_dim" : 64,
+    "ODE_path" : "./saved/OADNet/ode_encoder.model",
+    "only_eval_diff" : false,
+    "MERITS_model_path" : "./saved/MERITS/best_epoch.model",
+    "GAMENet_model_path" : "./saved/GAMENet/best_epoch.model",
+    "Retain_model_path" : "./saved/Retain/best_epoch.model",
+    "random_seed" : 2021,
+    "sample_data_path" : "./data/sample_data.pkl"
+}
